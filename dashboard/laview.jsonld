@@ -1,0 +1,158 @@
+{
+   "@context": "https://w3id.org/xapi/profiles/context",
+  "id": "https://github.com/letresearchunit/xapi/laview",
+  "type": "Profile",
+  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+  "prefLabel": {
+  	"en": "LAViEW Profile"
+  },
+  "author": {
+    "type": "Organization",
+    "name": "LET Research Unit, Kyoto University"
+  },
+  "versions": [
+    {
+      "id": "https://github.com/letresearchunit/xapi/laview",
+      "generatedAtTime": "2018-05-25T11:35:00Z",
+      }],
+"concepts": [
+   {
+      "id": "https://github.com/letresearchunit/xapi/laview/activities/dashboard",
+      "type": "ActivityType",
+      "definition": {
+        "en": "Dashboard visualizes the processed data from the LRS"
+      },
+      "inScheme": "https://github.com/letresearchunit/xapi/laview",
+      "prefLabel": {
+        "en": "dashboard"
+      }
+    },
+    {
+      "id": "https://github.com/letresearchunit/xapi/laview/evidence-portal",
+      "type": "ActivityType",
+      "definition": {
+        "en": "The evidence portal helps to collect data, record problems, its indicators, possible solutions and its result"
+      },
+      "inScheme": "https://github.com/letresearchunit/xapi/laview",
+      "prefLabel": {
+        "en": "evidence-portal"
+      }
+    },
+    {
+      "id": "https://github.com/letresearchunit/xapi/laview/verbs/collected",
+      "type": "Verb",
+      "definition": {
+        "en": "Indicates the actor recorded additional data regarding an activity or learner."
+      },
+      "inScheme": "https://github.com/letresearchunit/xapi/laview",
+      "prefLabel": {
+        "en": "collected"
+      }
+    },
+    {
+      "id": "https://github.com/letresearchunit/xapi/laview/verbs/monitored",
+      "type": "Verb",
+      "definition": {
+        "en": "Used to describe the action of looking at a specific dashboard element, for example a graph."
+      },
+      "inScheme": "https://github.com/letresearchunit/xapi/laview",
+      "prefLabel": {
+        "en": "monitored"
+      }
+    },
+    {
+      "id": "https://github.com/letresearchunit/xapi/laview/verbs/analysed",
+      "type": "Verb",
+      "definition": {
+        "en": "Indicates the actor noted a problem after monitoring the status in the dashboard"
+      },
+      "inScheme": "https://github.com/letresearchunit/xapi/laview",
+      "prefLabel": {
+        "en": "analysed"
+      }
+    },
+    {
+      "id": "https://github.com/letresearchunit/xapi/laview/verbs/planned",
+      "type": "Verb",
+      "definition": {
+        "en": "Indicates the actor selected an intervention or noted a plan based on the analysis."
+      },
+      "inScheme": "https://github.com/letresearchunit/xapi/laview",
+      "prefLabel": {
+        "en": "planned"
+      }
+    },
+    {
+      "id": "https://github.com/letresearchunit/xapi/laview/verbs/searched",
+      "type": "Verb",
+      "exactMatch": [ "http://activitystrea.ms/schema/1.0/search" ],
+      "definition": {
+        "en": "Indicates the actor looked for evidence in the evidence portal"
+      },
+      "inScheme": "https://github.com/letresearchunit/xapi/laview",
+      "prefLabel": {
+        "en": "searched"
+      }
+    },
+    {
+      "id": "https://github.com/letresearchunit/xapi/laview/verbs/reflected",
+      "type": "Verb",
+      "definition": {
+        "en": "Indicates the actor noted a reflection during or end of an activity"
+      },
+      "inScheme": "https://github.com/letresearchunit/xapi/laview",
+      "prefLabel": {
+        "en": "reflected"
+      }
+    },
+     {
+      "id": "https://github.com/letresearchunit/xapi/laview/extensions/feedback",
+      "inScheme": "https://github.com/letresearchunit/xapi/laview",
+      "type": "ActivityExtension",
+      "definition": {
+        "en": "It's the feedback the Actor gets after answering a question, or feedback from teacher or peer."
+      },
+      "prefLabel": {
+        "en": "feedback"
+      },
+      "inlineSchema": "{ \"type\": \"string\" }"
+    },
+    {
+      "id": "https://github.com/letresearchunit/xapi/laview/extensions/school",
+      "inScheme": "https://github.com/letresearchunit/xapi/laview",
+      "type": "ContextExtension",
+      "definition": {
+        "en": "It's to indicate an institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers."
+      },
+      "prefLabel": {
+        "en": "school"
+      },
+      "inlineSchema": "{ \"type\": \"string\" }"
+    },
+    {
+      "id": "https://github.com/letresearchunit/xapi/laviewextensions/rubrics",
+      "inScheme": "https://github.com/letresearchunit/xapi/laview",
+      "type": "ResultExtension",
+      "definition": {
+        "en": "It's the rubrics teachers use to evaluate Actor's performance or outcomes."
+      },
+      "prefLabel": {
+        "en": "rubrics"
+      },
+      "inlineSchema": "{ \"type\": \"string\" }"
+    },
+    {
+      "id": "https://github.com/letresearchunit/xapi/laview/extensions/time",
+      "inScheme": "https://github.com/letresearchunit/xapi/laview",
+      "type": "ResultExtension",
+      "definition": {
+        "en": "It's a value representing a position on a timeline of an activity, should be in ISO8601 format."
+      },
+      "prefLabel": {
+        "en": "time"
+      },
+      "inlineSchema": "{ \"type\": \"string\", \"format\": \"date-time\", \"pattern\": \"^\\d{4}\\-\\d{2}\\-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$\" }"
+    }
+
+  ]
+}
