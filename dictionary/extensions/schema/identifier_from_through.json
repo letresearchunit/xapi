@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties":
+    {
+        "identifier": { "type": "string" },
+        "from": { "type": "string" },
+        "through": { "type": "string" }
+    },
+   "required": [ "identifier" ]
+}
