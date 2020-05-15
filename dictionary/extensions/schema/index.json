@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties":
+    {
+        "$ref": "https://github.com/letresearchunit/xapi/dictionary/extensions/schema/identifier_from_through.json",
+        "searched_term": { "type": "string" }
+    },
+    "additionalProperties": false
+}

@@ -1,0 +1,224 @@
+{
+    "id": "https://github.com/letresearchunit/xapi/dictionary/profile",
+    "@context": "https://w3id.org/xapi/profiles/context",
+    "type": "Profile",
+    "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+    "prefLabel": {
+        "en": "xAPI Dictionary Profile",
+        "fr": "Profil xAPI pour dictionnaires"
+    },
+    "definition" : {
+        "en": "",
+        "fr": ""
+    },
+    "seeAlso": "https://github.com/letresearchunit/xapi/blob/master/dictionary/Dictionary_Extension_for_xAPI.md",
+    "versions": [
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/profile/v1.0",
+            "generatedAtTime": "2019-06-19T12:00:00Z"
+        }
+    ],
+    "author": {
+        "type": "Person",
+        "name": "Louis Lecailliez"
+    },
+    "concepts": [
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/verb/browsed",
+            "type": "Verb",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "prefLabel": {
+                "en": "Browsed",
+                "fr": "Affiché"
+            },
+            "definition": {
+                "en": "Used when an Entry, Page or Index is browsed by the user.",
+                "fr": "Utilisé lorsqu'une Entrée, une Page ou un Index est affiché par l'utilisateur."
+            }
+        },
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/verb/set",
+            "type": "Verb",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "prefLabel": {
+                "en": "Set",
+                "fr": "Fixé"
+            },
+            "definition": {
+                "en": "Used when an application settings is set to a given value.",
+                "fr": "Utilisé lorsqu'un paramètre d'une application est fixé à une certaine valeur."
+            }
+        },
+
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/activity_type/settings",
+            "type": "ActivityType",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "prefLabel": {
+                "en": "Settings",
+                "fr": "Paramètres"
+            },
+            "definition": {
+                "en": "Settings of a website or an application.",
+                "fr": "Paramètres d'une application ou d'un site web."
+            }
+        },
+
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/activity/application",
+            "type": "Activity",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "activityDefinition": {
+                "@context": "https://w3id.org/xapi/profiles/activity-context",
+                "type": "https://w3id.org/xapi/acrossx/activities/search-engine",
+                "name": {
+                    "en": "Application",
+                    "fr": "Application"
+                },
+                "description": {
+                    "en": "Represents a dictionary software.",
+                    "fr": "Représente un logiciel de dictionnaire."
+                }
+            }
+        },
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/activity/entry",
+            "type": "Activity",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "activityDefinition": {
+                "@context": "https://w3id.org/xapi/profiles/activity-context",
+                "type": "http://activitystrea.ms/schema/1.0/article",
+                "name": {
+                    "en": "Entry",
+                    "fr": "Entrée"
+                },
+                "description": {
+                    "en": "Represents a dictionary entry.",
+                    "fr": "Représente une entrée de dictionnaire."
+                }
+            }
+        },
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/activity/index",
+            "type": "Activity",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "activityDefinition": {
+                "@context": "https://w3id.org/xapi/profiles/activity-context",
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "name": {
+                    "en": "Index",
+                    "fr": "Index"
+                },
+                "description": {
+                    "en": "Represents a dictionary index.",
+                    "fr": "Représente l'index d'un dictionnaire."
+                }
+            }
+        },
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/activity/page",
+            "type": "Activity",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "activityDefinition": {
+                "@context": "https://w3id.org/xapi/profiles/activity-context",
+                "type": "http://activitystrea.ms/schema/1.0/page",
+                "name": {
+                    "en": "Page",
+                    "fr": "Page"
+                },
+                "description": {
+                    "en": "Represents a dictionary page that is not an entry nor an index of a dictionary.",
+                    "fr": "Représente une page d'un dictionnaire qui n'est ni une entrée ni un index."
+                }
+            }
+        },
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/activity/settings",
+            "type": "Activity",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "activityDefinition": {
+                "@context": "https://w3id.org/xapi/profiles/activity-context",
+                "type": "https://github.com/letresearchunit/xapi/dictionary/activity_type/settings",
+                "name": {
+                    "en": "Settings",
+                    "fr": "Paramètres"
+                },
+                "description": {
+                    "en": "Represents the settings of dictionary software.",
+                    "fr": "Représente les paramètres d'un dictionnaire informatisé."
+                }
+            }
+        },
+
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/activity/application/extension",
+            "type": "ActivityExtension",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "prefLabel": {
+                "en": "Application Activity Extension",
+                "fr": "Extension de l'activité Application"
+            },
+            "definition": {
+                "en": "Additional properties for the Application activity.",
+                "fr": "Propriétés additionnelles pour l'activité Application."
+            },
+            "schema": "https://github.com/letresearchunit/xapi/dictionary/extensions/schema/application.json"
+        },
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/activity/entry/extension",
+            "type": "ActivityExtension",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "prefLabel": {
+                "en": "Entry Activity Extension",
+                "fr": "Extension de l'activité Entrée"
+            },
+            "definition": {
+                "en": "Additional properties for the Entry activity.",
+                "fr": "Propriétés additionnelles pour l'activité Entrée."
+            },
+            "schema": "https://github.com/letresearchunit/xapi/dictionary/extensions/schema/entry.json"
+        },
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/activity/index/extension",
+            "type": "ActivityExtension",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "prefLabel": {
+                "en": "Index Activity Extension",
+                "fr": "Extension de l'activité Index"
+            },
+            "definition": {
+                "en": "Additional properties for the Index activity.",
+                "fr": "Propriétés additionnelles pour l'activité Index."
+            },
+            "schema": "https://github.com/letresearchunit/xapi/dictionary/extensions/schema/index.json"
+        },
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/activity/page/extension",
+            "type": "ActivityExtension",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "prefLabel": {
+                "en": "Page Activity Extension",
+                "fr": "Extension de l'activité Page"
+            },
+            "definition": {
+                "en": "Additional properties for the Page activity.",
+                "fr": "Propriétés additionnelles pour l'activité Page."
+            },
+            "schema": "https://github.com/letresearchunit/xapi/dictionary/extensions/schema/page.json"
+        },
+        {
+            "id": "https://github.com/letresearchunit/xapi/dictionary/activity/settings/extension",
+            "type": "ActivityExtension",
+            "inScheme": "https://github.com/letresearchunit/xapi/dictionary/profile",
+            "prefLabel": {
+                "en": "Settings Activity Extension",
+                "fr": "Extension de l'activité Paramètres"
+            },
+            "definition": {
+                "en": "Additional properties for the Settings activity.",
+                "fr": "Propriétés additionnelles pour l'activité Settings."
+            },
+            "schema": "https://github.com/letresearchunit/xapi/dictionary/extensions/schema/settings.json"
+        }
+    ]
+}
