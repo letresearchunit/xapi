@@ -63,7 +63,7 @@
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
             "en":"",
-        "jp":"ジャンプ先のページ番号の‐1の値 例：P3からP6にジャンプする場合は、5"},
+        "jp":"ジャンプ先のページ番号の‐1の値 例：P3からP6にジャンプする場合は、5 / 手書きメモの1ストロークを表す:[pen color][Multiple{UNIX time:x−coordinate:y−coordinate,...}: rgb(0,0,0),1545 888614255:56.0 0522193211488 :20.3188491774 757,154588861 4366:59.451697 12793733:20.92 8109910874298...]"},
         "prefLabel": {
             "en":"description",
         "jp":"ディスクリプション"},
@@ -140,7 +140,7 @@
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
             "en":"",
-        "jp":"各操作, PAGE_JUMP    （スライダー操作など）ページ番号の指定, NEXT   次のページ指定, PREV   前のページ指定, MEMO_JUMP  メモリストの指定によるページ切替, SEARCH_JUMP   検索結果の指定によるページ切替, BOOKMARK_JUMP  しおり指定によるページ切替, LINK_CLICK   ページ内のURLリンクのクリック, ADD MARKER    マーカーの追加, DELETE MARKER  マーカーの削除, ADD BOOKMARK   しおりの追加, DELETE BOOKMARK しおりの削除, ADD MEMO    メモの追加, DELETE_MEMO  メモの削除, CHANGE MEMO  メモの編集, SEARCH   本文内検索実行, CLOSE  教材を閉じる, OPEN    教材を開く, REGIST CONTENTS  教材の登録"},
+        "jp":"各操作, PAGE_JUMP    （スライダー操作など）ページ番号の指定, NEXT   次のページ指定, PREV   前のページ指定, MEMO_JUMP  メモリストの指定によるページ切替, SEARCH_JUMP   検索結果の指定によるページ切替, BOOKMARK_JUMP  しおり指定によるページ切替, LINK_CLICK   ページ内のURLリンクのクリック, ADD MARKER    マーカーの追加, DELETE MARKER  マーカーの削除, ADD BOOKMARK   しおりの追加, DELETE BOOKMARK しおりの削除, ADD MEMO    メモの追加, DELETE_MEMO  メモの削除, CHANGE MEMO  メモの編集, ADD_HW_MEMO 手書きストローク追加, UNDO_HW_MEMO 手書きUNDO処理, CLEAR_HW_MEMO 手書きCLEAR処理, SEARCH   本文内検索実行, CLOSE  教材を閉じる, OPEN    教材を開く, REGIST CONTENTS  教材の登録"},
         "prefLabel": {
             "en":"operation_name",
             "jp":"操作名},"
