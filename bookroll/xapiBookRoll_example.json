@@ -25,7 +25,7 @@
         "name": "LET Research unit, Kyoto University"
     },
     "concepts": [
-        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/log_id,
+        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/log_id",
         "type": "ActivityExtension",
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
@@ -36,7 +36,7 @@
         "jp":"ログID"},
         "inlineSchema": "{ \"type\": \"string\" }"
         },
-        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/contents_id,
+        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/contents_id",
         "type": "ActivityExtension",
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
@@ -47,7 +47,7 @@
         "jp":"コンテンツID"},
         "inlineSchema": "{ \"type\": \"string\" }"
         },
-        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/contents_name,
+        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/contents_name",
         "type": "ActivityExtension",
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
@@ -58,7 +58,7 @@
         "jp":"コンテンツ名"},
         "inlineSchema": "{ \"type\": \"string\" }"
         },
-        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/description,
+        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/description",
         "type": "ActivityExtension",
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
@@ -69,7 +69,7 @@
         "jp":"ディスクリプション"},
         "inlineSchema": "{ \"type\": \"string\" }"
         },
-        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/device_code,
+        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/device_code",
         "type": "ActivityExtension",
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
@@ -80,7 +80,7 @@
         "jp":"デバイス名"},
         "inlineSchema": "{ \"type\": \"string\" }"
         },
-        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/marker_color,
+        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/marker_color",
         "type": "ActivityExtension",
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
@@ -91,7 +91,7 @@
         "jp":"マーカーの色"},
         "inlineSchema": "{ \"type\": \"string\" }"
         },
-        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/marker_position,
+        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/marker_position",
         "type": "ActivityExtension",
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
@@ -102,7 +102,7 @@
         "jp":"マーカー個所"},
         "inlineSchema": "{ \"type\": \"string\" }"
         },
-        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/marker_text,
+        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/marker_text",
         "type": "ActivityExtension",
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
@@ -113,7 +113,7 @@
         "jp":"マーカー箇所のテキスト？"},
         "inlineSchema": "{ \"type\": \"string\" }"
         },
-        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/memo_text,
+        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/memo_text",
         "type": "ActivityExtension",
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
@@ -124,7 +124,7 @@
         "jp":"メモ"},
         "inlineSchema": "{ \"type\": \"string\" }"
         },
-        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/operation_date,
+        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/operation_date",
         "type": "ActivityExtension",
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
@@ -135,7 +135,7 @@
         "jp":"操作日時"},
         "inlineSchema": "{ \"type\": \"string\" }"
         },
-        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/operation_name,
+        {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/operation_name",
         "type": "ActivityExtension",
         "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
         "definition": {
@@ -143,10 +143,10 @@
         "jp":"各操作, PAGE_JUMP    （スライダー操作など）ページ番号の指定, NEXT   次のページ指定, PREV   前のページ指定, MEMO_JUMP  メモリストの指定によるページ切替, SEARCH_JUMP   検索結果の指定によるページ切替, BOOKMARK_JUMP  しおり指定によるページ切替, LINK_CLICK   ページ内のURLリンクのクリック, ADD MARKER    マーカーの追加, DELETE MARKER  マーカーの削除, ADD BOOKMARK   しおりの追加, DELETE BOOKMARK しおりの削除, ADD MEMO    メモの追加, DELETE_MEMO  メモの削除, CHANGE MEMO  メモの編集, ADD_HW_MEMO 手書きストローク追加, UNDO_HW_MEMO 手書きUNDO処理, CLEAR_HW_MEMO 手書きCLEAR処理, SEARCH   本文内検索実行, CLOSE  教材を閉じる, OPEN    教材を開く, REGIST CONTENTS  教材の登録"},
         "prefLabel": {
             "en":"operation_name",
-            "jp":"操作名},"
+            "jp":"操作名"},
             "inlineSchema": "{ \"type\": \"string\" }"
             },
-            {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/page_no,
+            {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/page_no",
             "type": "ActivityExtension",
             "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
             "definition": {
@@ -157,7 +157,7 @@
             "jp":"ページ番号"},
             "inlineSchema": "{ \"type\": \"string\" }"
             },
-            {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/process_code,
+            {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/process_code",
             "type": "ActivityExtension",
             "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
             "definition": {
@@ -168,7 +168,7 @@
             "jp":"プロセスコード"},
             "inlineSchema": "{ \"type\": \"string\" }"
             },
-            {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/user_id,
+            {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/user_id",
             "type": "ActivityExtension",
             "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
             "definition": {
@@ -179,7 +179,7 @@
             "jp":"ユーザID"},
             "inlineSchema": "{ \"type\": \"string\" }"
             },
-            {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/version,
+            {"id": "https://github.com/letresearchunit/xapi/bookroll/extensions/version",
             "type": "ActivityExtension",
             "inScheme": "https://github.com/letresearchunit/xapi/bookroll/profile",
             "definition": {
